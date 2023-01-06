@@ -1,5 +1,11 @@
 # VinKekFish
 
+For English see translator
+https://translate.yandex.ru/?lang=ru-en
+or
+https://translate.google.com/?sl=ru&tl=en&op=translate
+
+
 Не уверен, что доведу проект до конца.
 Пока для пользователя здесь нет ничего интересного. Приходите в 2024 году, возможно, я допишу.
 
