@@ -5,7 +5,10 @@ https://translate.yandex.ru/?lang=ru-en
 or
 https://translate.google.com/?sl=ru&tl=en&op=translate
 
+Требует .NET 7.0
 Программа предназначена для работы под Linux, т.к. использует часть путей Linux (/dev/random) и sh-скрипты для сборки
+
+
 
 Не уверен, что доведу проект до конца.
 Пока для пользователя здесь нет ничего интересного. Приходите в 2024 году, возможно, я допишу.
@@ -23,7 +26,7 @@ https://translate.google.com/?sl=ru&tl=en&op=translate
 
 Для программистов.
 
-Реализованы примитивы keccak и Threefish:
+Реализованы примитивы keccak и Threefish: (см. репозиторий old-VinKekFish)
 
 keccak версии 512 битов (максимальный из возможных)
 
