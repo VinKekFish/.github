@@ -43,7 +43,9 @@ Keccak ерсии 512 битов (максимальная длина из во�
 
 ### Threefish
 Threefish версии 1024 битов (тоже максимальная длина; только на шифрование). Осторожно, там нужно вычислить третий tweak (tweak1 ^ tweak2) и передать его в массиве твиков, а также вычислить расширение ключа (threefish_unsafe как раз это делает).
+
 [Класс для подготовки ключей и твиков](https://github.com/VinKekFish/VinKekFish/blob/main/src/main/3%20cryptoprime/ThreeFish/threefish_unsafe.cs)
+
 [Класс самого ThreeFish](https://github.com/VinKekFish/VinKekFish/blob/main/src/main/3%20cryptoprime/ThreeFish/Threefish_Static_Generated.cs)
 
 
@@ -54,9 +56,12 @@ Threefish версии 1024 битов (тоже максимальная дли
 ## Основные примитивы программы
 ### VinKekFish (ВинКекФиш)
 [Описание примитива](https://github.com/VinKekFish/VinKekFish/blob/main/Docs/Dev/Crypto/VinKekFish/Description/VinKekFish.md)
+
 [Сам примитив](https://github.com/VinKekFish/VinKekFish/tree/main/src/main/5%20main-crypto/VinKekFish/VinKekFish-kn-20210525)
 
 ### CascadeSponge (каскадная губка)
 [Описание примитива (пока не закончено)](https://github.com/VinKekFish/VinKekFish/blob/main/Docs/Dev/Crypto/VinKekFish/Description/cascadeSponge.md)
- [Сам примитив](https://github.com/VinKekFish/VinKekFish/tree/main/src/main/5%20main-crypto/CascadeSponge/20230930mt)
+
+[Сам примитив](https://github.com/VinKekFish/VinKekFish/tree/main/src/main/5%20main-crypto/CascadeSponge/20230930mt)
+
 [Генератор псевдослучайных чисел и таблиц перестановок до 64*1024 элементов (пока не протестирован)](https://github.com/VinKekFish/VinKekFish/blob/main/src/main/5%20main-crypto/CascadeSponge/20230905/CascadeSponge-1t_prng.cs)
