@@ -1,6 +1,6 @@
 # VinKekFish
 
-For English see translator
+__For English__ see translator
 https://translate.yandex.ru/?lang=ru-en
 or
 https://translate.google.com/?sl=ru&tl=en&op=translate
